@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+}
+
+#app {
+    display: inline-block;
+    width: 400px;
+	height: 400px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    border-radius: 20px;
+}
+
+.todo button {
+    border-radius:  20px;
+    border-color: white;
+}
