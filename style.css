@@ -38,3 +38,17 @@ h1, h3, p{
     border-radius:  20px;
     border-color: white;
 }
+
+/*Tablets*/
+@media(max-width: 768px){
+    #app {
+        width: 80vw;
+    }
+}
+
+/*Mobile*/
+@media(max-width: 500px){
+    #app {
+        width: 90vw;
+    }
+}
