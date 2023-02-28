@@ -25,6 +25,22 @@ h1, h3, p{
     border-radius: 20px;
 }
 
+button {
+    text-decoration: none;
+    background-color: green;
+    font-family:'Open Sans', sans-serif;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+
+form input {
+    padding: 18px 30px;
+}
+
+form button {
+    padding: 15px;
+}
 
 .todo {
     display: flex;
@@ -34,9 +50,17 @@ h1, h3, p{
     border-radius: 20px;
 }
 
+.todo p {
+    text-align: left;
+}
+
 .todo button {
     border-radius:  20px;
     border-color: white;
+}
+
+.todo button {
+    padding: 0px 20px;
 }
 
 /*Tablets*/
@@ -50,5 +74,9 @@ h1, h3, p{
 @media(max-width: 500px){
     #app {
         width: 90vw;
+    }
+
+    form input {
+        padding: 18px 25px;
     }
 }
