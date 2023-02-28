@@ -80,3 +80,15 @@ form button {
         padding: 18px 25px;
     }
 }
+
+@media(max-width: 375px){
+    #app {
+        width: 90vw;
+    }
+
+    form input {
+        padding: 18px 25px;
+        margin-bottom: 1rem;
+        
+    }
+}
