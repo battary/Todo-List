@@ -36,10 +36,15 @@ button {
 
 form input {
     padding: 18px 30px;
+    margin: 0px 10px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 form button {
     padding: 15px;
+    border-radius: 20px;
 }
 
 .todo {
@@ -57,9 +62,6 @@ form button {
 .todo button {
     border-radius:  20px;
     border-color: white;
-}
-
-.todo button {
     padding: 0px 20px;
 }
 
